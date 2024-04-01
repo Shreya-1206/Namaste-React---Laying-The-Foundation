@@ -8,18 +8,20 @@ const jsxHeading = (
 </h1>
 );
 
+//smiple react element
+// see how jsx render the javascript variable
+const val = 1000
+const Elem = () => <span>Span it </span>;
+const title = (
+    <h1>{Elem()} {val} times Namaste React ❤️‍🔥</h1>
+);
 
-const Title =() => (
-    <h1>
-        Namaste React ❤️‍🔥
-    </h1>
-    );
 //Here comes React Functional Component
 
 const HeadingComponent = () => {
    return (
         <div>
-            <Title/>
+            {title}
             <h2>React Functional Component  </h2>
         </div>
     )
