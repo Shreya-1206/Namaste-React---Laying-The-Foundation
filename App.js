@@ -11,7 +11,9 @@ const jsxHeading = (
 //smiple react element
 // see how jsx render the javascript variable
 const val = 1000
-const Elem = () => <span>Span it </span>;
+function Elem() {
+    return (<span>Span it</span>);
+}
 const title = (
     <h1>{Elem()} {val} times Namaste React ❤️‍🔥</h1>
 );
